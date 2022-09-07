@@ -1,0 +1,15 @@
+﻿@page "/SaveCompany/{id}"
+@inherits SaveCompanyBase
+
+<h3>Save Company</h3>
+
+<EditForm Model="@Company">
+    <div class="mb-3">
+        <label for="Company" class="form-label">Company</label>
+        <InputText type="text" class="form-control" id="Company" @bind-Value="@Company.CompanyName" placeholder="Enter Company"></InputText>
+    </div>
+    <div class="mb-3">
+        <label for="DOJ" class="form-label">DOJ</label>
+        <InputDate id="DOJ" class="form-control" @bind-Value="@Company.DOJ"></InputDate>
+    </div>
+</EditForm>

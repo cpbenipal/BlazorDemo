@@ -1,0 +1,12 @@
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\bin\Debug\net6.0\BlazorModels.deps.json
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\bin\Debug\net6.0\BlazorModels.dll
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\bin\Debug\net6.0\BlazorModels.pdb
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\obj\Debug\net6.0\BlazorModels.csproj.AssemblyReference.cache
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\obj\Debug\net6.0\BlazorModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\obj\Debug\net6.0\BlazorModels.AssemblyInfoInputs.cache
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\obj\Debug\net6.0\BlazorModels.AssemblyInfo.cs
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\obj\Debug\net6.0\BlazorModels.csproj.CoreCompileInputs.cache
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\obj\Debug\net6.0\BlazorModels.dll
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\obj\Debug\net6.0\refint\BlazorModels.dll
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\obj\Debug\net6.0\BlazorModels.pdb
+D:\Projects\Farhal\Projects\BlazorApplication\BlazorModels\obj\Debug\net6.0\ref\BlazorModels.dll

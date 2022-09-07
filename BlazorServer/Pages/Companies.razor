@@ -1,0 +1,33 @@
+﻿@page "/"
+@inherits CompaniesBase; 
+
+<h3>Companies List</h3>
+
+
+@if (Companies == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div class="row">
+        @foreach (var c in Companies)
+        { 
+
+
+            <div class="card" style="width: 18rem;">
+               <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@c.CompanyName</h5>
+                        <p class="card-text">@c.DOJ.ToShortDateString()</p>
+                        <a href="@($"CompanyDetail/{c.Id}")" class="btn btn-primary">View</a> <a href="@($"SaveCompany/{c.Id}")" class="btn btn-primary">Edit</a> 
+                         @*<button type="button" class="btn btn-danger m-1" @onclick="Delete_Click">Delete</button>*@
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    
+
+}

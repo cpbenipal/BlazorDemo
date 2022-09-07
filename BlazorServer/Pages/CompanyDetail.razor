@@ -1,0 +1,29 @@
+﻿@page "/CompanyDetail/{id}"
+@inherits CompanyDetailBase
+
+<h3>Company Detail</h3>
+
+@if (Company == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+
+
+    <div class="card" style="width: 18rem;">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@Company.CompanyName</h5>
+                <p class="card-text">@Company.DOJ.ToShortDateString()</p>
+                <p class="card-text">RegNo. - @System.Guid.NewGuid().ToString().Substring(0,6).ToUpper()</p>
+                <a href="@($"SaveCompany/{Company.Id}")" class="btn btn-primary">Edit</a>
+
+                <button type="button" class="btn btn-danger m-1" @onclick="Delete_Click">Delete</button>
+
+            </div>
+        </div>
+    </div>
+    
+}
+<Confirm ConfirmationChanged="ConfirmDelete_Click" @ref="DeleteConfirmation" ConfirmationMessage=@($"Are you sure to delete ? ")></Confirm>
